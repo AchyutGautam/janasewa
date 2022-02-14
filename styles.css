@@ -1,0 +1,281 @@
+html {
+    scroll-behavior: smooth;
+  }
+.navbar{
+    /* margin-left: 20%; */
+    /* display:inline-block; */
+
+}
+#navbarSupportedContent ul{
+    /* padding: 5px 35px; */
+   
+    
+}
+#navbarSupportedContent ul li{
+    padding: 3px 8px;
+    
+}
+
+#navbarSupportedContent ul li a{
+    padding: 5px 15px;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    
+}
+.nav-item  a:hover {
+     background-color: #B0E0E6; 
+     color:white !important; 
+    /* border-radius: 15px; */
+    border-bottom: 2px solid #b3e4eb;
+    
+     
+    
+
+   
+  }
+
+.aboutus .inneraboutus h4{
+    font-weight: bold;
+    text-align:center;
+    font-size:30px;
+    color: #1080a5;
+    padding: 18px 0px;
+}
+.aboutus .inneraboutus #aboutusdetail{
+    text-align: justify;
+    padding: 28px 31px;
+}
+
+.aboutus .inneraboutus .viewmorebutton{
+    /* padding:5px 5px; */
+
+}
+.aboutus .inneraboutus .viewmorebutton .btn{
+    border: 0px solid grey;
+    color: white;
+    float: right;
+    padding: 10px 27px;
+    
+}
+
+@media screen and (max-width: 678px){
+    .aboutus .inneraboutus .viewmorebutton .btn{
+        margin-bottom: 40px;
+    }
+}
+
+
+
+.exploreourroom .innerexploreourroom h4{
+    font-weight: bold;
+    text-align:center;
+    font-size:30px;
+    color:#1080a5;
+    padding: 18px 0px;
+}
+
+
+
+.ourservices .innerourservices h4{
+    font-weight: bold;
+    text-align:center;
+    font-size:30px;
+    color:#1080a5;
+    padding: 18px 0px;
+}
+
+.ourservices .innerourservices  {
+    background-color:rgb(245 242 239 / 47%);
+    padding-bottom: 23px;
+}
+
+.ourservices .innerourservices #cardservices img{
+    width:100%;
+    height:250px;
+  }
+  .ourservices .innerourservices #cardservices #card1{
+    padding:19px 5px; 
+   
+  }
+  .ourservices .innerourservices .card{
+    /* box-shadow: 5px 10px #9e9e9e2b; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .card:hover .overlay {
+    height: 100%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+
+
+.ourmemories .innerourmemories h4{
+    font-weight: bold;
+    text-align:center;
+    font-size:30px;
+    color:#1080a5;
+    padding: 18px 0px;
+}
+.ourmemories .innerourmemories img{
+  
+    /* box-shadow: 5px 10px #daebf5fc; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:19px 5px; 
+   
+
+}
+ /* .ourmemories .innerourmemories img:hover{
+   
+        -ms-transform: scale(1.5); 
+        -webkit-transform: scale(1.5); 
+        transform: scale(1.5); 
+}  */
+
+
+
+
+.testimonials .innertestimonials h4{
+    font-weight: bold;
+    text-align:center;
+    font-size:30px;
+    color:#1080a5;
+    padding: 18px 0px;
+}
+
+.testimonials .innertestimonials img{
+    /* padding:10px 45px; */
+    width:100%;
+}
+.testimonials .innertestimonials .description{
+    padding:5px 15px;
+    text-align: justify;
+    float:left;
+    width:70%;
+}
+
+
+.startreservation .innerstartreservation h4{
+    font-weight: bold;
+    text-align:center;
+    font-size:30px;
+    color:#1080a5;
+    padding: 18px 0px;
+}
+
+.startreservation .innerstartreservation img{
+    padding:15px 45px;
+}
+.startreservation .innerstartreservation .submitbutton{
+    padding: 20px 3px;
+
+}
+
+.startreservation .innerstartreservation .submitbutton .btn{
+    padding: 9px 22px;
+}
+
+
+
+
+
+.ourservices .innerourservices img{
+    padding:35px 60px;
+}
+
+.aboutus{
+    margin: 40px 0px;
+
+}
+.ourservices{
+    margin: 40px 0px;
+
+
+}
+.testimonials{
+    margin: 40px 0px;
+
+
+}
+.footer{
+    margin-top:40px;
+}
+
+
+
+
+.footer .innerfooter {
+    background-color: rgb(199, 177, 177);
+    /* padding: 40px 10px; */
+}
+
+.footer .innerfooter ul{
+    padding: 8px 60px;
+    text-align: center;
+}
+.footer .innerfooter h4{
+   
+    font-weight: bold;
+    text-align:center;
+    font-size:30px;
+    color:#1080a5;
+    margin-top:25px;
+    /* padding: 18px 0px; */
+}
+
+.footer .innerfooter #footerdescription{
+    padding: 7px 29px;
+    text-align: center;
+}
+
+.footer .innerfooter #copyright {
+    text-align: center;
+    padding: 17px 5px;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #e86969; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+

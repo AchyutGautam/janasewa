@@ -1,0 +1,54 @@
+.contactus{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.contactus h6{
+    text-align: center;
+    font-weight: bold;
+    font-size:40px;
+    color:orangered;
+    margin-bottom: 40px;
+}
+
+.contactus .fa{
+    font-size: 55px;
+    color: rgb(1, 60, 80);
+    margin-bottom: 10px;
+
+}
+
+.contactus #feedbackform1{
+    background-color: #efefef;
+    padding: 35px;
+    box-shadow: 0px 0px 12px -4px #909090;
+
+}
+
+.contactus #icon{
+    padding:35px;
+    text-align: center;
+}
+
+.contactus #icongroup{
+    padding:0px 50px;
+}
+
+.contactus #icongroup #icon span{
+    font-weight: bold;
+    color:#7b7b7b;
+}
+
+.contactus  label{
+    font-weight: bold;
+    color:#7b7b7b;
+}
+
+.contactusbutton {
+    padding: 20px 3px;
+}
+
+.contactusbutton .btn{
+    padding: 9px 22px;
+
+}

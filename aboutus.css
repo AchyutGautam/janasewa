@@ -1,0 +1,18 @@
+.aboutuspage{
+    margin-top:40px ;
+    margin-bottom: 40px;
+}
+
+.aboutuspage .inneraboutuspage h4{
+    font-weight: bold;
+    text-align:center;
+    font-size:30px;
+    color:#1080a5;
+    padding: 18px 0px;
+
+}
+
+.aboutuspage .inneraboutuspage p{
+    padding:10px 20px;
+
+}
